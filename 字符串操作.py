@@ -6,6 +6,7 @@
 分隔： split(分隔符)
 字符串索引
 #连接和重复
+成员运算符
 '''
 name1='我爱'
 name2='鲸鱼编程'
@@ -27,4 +28,12 @@ print(ddd)
 #字符串索引
 fff='我爱小鲸鱼'
 print(fff[0])
+#成员运算符：
+'''符号：in
+定义如果在指定的序列中找到值返回 True，否则返回 False。
 
+符号：not in
+定义如果在指定的序列中没有找到值返回 True，否则返回 False。'''
+string = "我爱鲸鱼"
+print("鲸鱼" in string)
+print('鲸鱼' in string)
